@@ -1,0 +1,10 @@
+        DATABASE        TABLE NAME  COLUMN NAME POSITION      ISNULL   DATA TYPE       
+def	mystudent	student	      ID	1	""	NO	varchar	255	765	""	""	""	utf8	utf8_general_ci	varchar(255)	PRI	""	select,insert,update,references	""	""
+def	mystudent	student	   class	2	""	YES	varchar	255	765	""	""	""	utf8	utf8_general_ci	varchar(255)	""	""	select,insert,update,references	""	""
+def	mystudent	student	   section	3	""	YES	varchar	255	765	""	""	""	utf8	utf8_general_ci	varchar(255)	MUL	""	select,insert,update,references	""	""
+def	mystudent	student     name	4	""	YES	char	50	150	""	""	""	utf8	utf8_general_ci	char(50)	""	""	select,insert,update,references	""	""
+def	mystudent	student    fname	5	""	NO	char	50	150	""	""	""	utf8	utf8_general_ci	char(50)	""	""	select,insert,update,references	""	""
+def	mystudent	student	    fnum	6	""	YES	varchar	255	765	""	""	""	utf8	utf8_general_ci	varchar(255)	""	""	select,insert,update,references	""	""
+def	mystudent	student    Aadhar	7	""	YES	varchar	255	765	""	""	""	utf8	utf8_general_ci	varchar(255)	UNI	""	select,insert,update,references	""	""
+def	mystudent	student	   address	8	""	YES	varchar	255	765	""	""	""	utf8	utf8_general_ci	varchar(255)	""	""	select,insert,update,references	""	""
+def	mystudent	student	   photo	9	""	YES	mediumtext	16777215	16777215	""	""	""	utf8	utf8_general_ci	mediumtext	""	""	select,insert,update,references	""	""
